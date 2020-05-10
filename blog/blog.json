@@ -1,0 +1,61 @@
+[
+  {
+    "id" : "museummammy",
+    "summary" : "two authors who just saw a layout of their first book...",
+    "text" : "two authors who just saw a layout of their first book. the woman in the foreground wears glasses and the woman in the background wears pink sunglasses and is holding up a peace sign. both women are radiating with pride and hope for the future.",
+    "shape" : "square",
+    "author" : "@museummammy",
+    "time" : "3/17/2018",
+    "links" : [
+      {
+        "link-text" : "Source post",
+        "link-url" : "https://instagram.com"
+      },
+      {
+        "link-text" : "Piece about the author in NYT",
+        "link-url" : "https://nytimes.com"
+      }
+    ],
+    "reflection" : "We love how Kimberly Drew’s alt-text does lorem ipsum and so on and and so forth and it’s really inviting."
+  },
+
+  {
+    "id" : "donald-judd",
+    "summary" : "[There are] five white, very large paintings in this show...",
+    "text" : "The space is shallow, close to the surface and achieved by innumerable small arcs superimposed on a black ground overlain with a wash of white. The effect is both complex and simple... The total quality suggests an analogy to a large, fragile, but vigorously carved grill or to a massive, solid lace.",
+    "shape" : "landscape",
+    "author" : "Donald Judd",
+    "time" : "1959",
+    "links" : [
+      {
+        "link-text" : "Source article",
+        "link-url" : ""
+      },
+      {
+        "link-text" : "More information about the author on juddfoundation.org",
+        "link-url" : ""
+      }
+    ],
+    "reflection" : "We love how lorem ipsum and so on and and so forth. Gitaquod eossi non rem debis sit ea venis reptatur magnatatem quo occatur? Borati sus quo quam ellor aboris est re vella solecti stibus nis dolut quam et alique de non nonsed erchil mollorepedis maximus, nossita quodios sim explatus, ius et officiunt omnimusdae quo dia consequo."
+  },
+
+  {
+    "id" : "justnalln",
+    "summary" : "A sea of purple aster flowers, with round yellow centers...",
+    "text" : "A sea of purple aster flowers, with round yellow centers and thick manes of straight thin lavender petals, like purple daisies.",
+    "shape" : "square",
+    "author" : "@justnalln",
+    "time" : "10/23/2018",
+    "links" : [
+      {
+        "link-text" : "Source post",
+        "link-url" : ""
+      },
+      {
+        "link-text" : "More information about the author on ...",
+        "link-url" : ""
+      }
+    ],
+    "reflection" : "We love how lorem ipsum and so on and and so forth. Gitaquod eossi non rem debis sit ea venis reptatur magnatatem quo occatur? Borati sus quo quam ellor aboris est re vella solecti stibus nis dolut quam et alique de non nonsed erchil mollorepedis maximus, nossita quodios sim explatus, ius et officiunt omnimusdae quo dia consequo."
+  }
+]
