@@ -121,9 +121,11 @@ function addEmanatingFlowers(section, verticalSides, horizontalSides, flowerCons
   // create surrounding garden
   var flowerPower = Math.pow(2, flowerConstant);
   var flowerDividend = flowerPower + 2;
-  var surroundingGarden = document.createElement('div');
-  surroundingGarden.className = 'surrounding-garden';
-  section.appendChild(surroundingGarden);
+  // var surroundingGarden = document.createElement('div');
+  // surroundingGarden.className = 'surrounding-garden';
+  // section.appendChild(surroundingGarden);
+  var surroundingGarden = section.querySelector('div.surrounding-garden');
+  if (!surroundingGarden) return;
 
   // iterate through each corner of the section, e.g. starting with (top, left)
   horizontalSides.forEach(horizontalSide => {

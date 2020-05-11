@@ -189,6 +189,7 @@ li.flower-bullet::before {
   }
 }
 #first-flowers .flower {
+  display: block;
   position: absolute;
   z-index: -1;
 }

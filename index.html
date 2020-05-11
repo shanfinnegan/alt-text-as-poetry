@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.com/dab74f90-05f8-457b-bc96-450402ae5aad%2Ffavicon-180.png?v=1587147829611">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.com/dab74f90-05f8-457b-bc96-450402ae5aad%2Ffavicon-32.png?v=1587147829551.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
   </head>  
   <body>
     
-    <header>
+    <!-- <header>
       <h1 class="extralarge">Alt-Text as Poetry</h1>
       <div id="date">Today is</div>
       <nav class="large">
@@ -27,26 +26,25 @@
           <li><a class="scroll blog" href="#blog">Blog</a></li>
         </ul>
       </nav>
-    </header>
+    </header> -->
 
     <main>
 
       <!-- Scattered colored flowers -->
       <div id="first-flowers">
-        <div class="flower yellow" style="top: 178px; left: 7%;">✿</div>
-        <div class="flower yellowgreen" style="top: 522px; left: 246px;">✿</div>
-        <div class="flower tomato" style="top: 748px; right: 256px;">✿</div>
-        <div class="flower cyan" style="top: 174px; right: 43px;">✿</div>
-        <div class="flower silver" style="top: 590px; right: 54px;">✿</div>
-        <div class="flower fuchsia" style="top: 445px; right: 245px;">✿</div>
-        <div class="flower peru" style="top: 406px; right: 176px;">✿</div>
+        <div class="flower yellow" style="top: 178px; left: 7%;" role="img" aria-label="yellow florette">✿</div>
+        <div class="flower yellowgreen" style="top: 522px; left: 246px;" role="img" aria-label="yellowgreen florette">✿</div>
+        <div class="flower tomato" style="top: 748px; right: 256px;" role="img" aria-label="tomato florette">✿</div>
+        <div class="flower cyan" style="top: 174px; right: 43px;" role="img"  aria-label="cyan florette">✿</div>
+        <div class="flower silver" style="top: 590px; right: 54px;" role="img" aria-label="silver florette">✿</div>
+        <div class="flower fuchsia" style="top: 445px; right: 245px;" role="img" aria-label="fuchsia florette">✿</div>
+        <div class="flower peru" style="top: 406px; right: 176px;" role="img"  aria-label="peru florette">✿</div>
       </div>
 
       <!-- SECTION: WELCOME -->
       <section id="welcome" class="medium">
-        <div class="flower-arch">
+        <div class="flower-arch" role="img" aria-label="7 white flowers arranged in an arch">
           <span class="flower">✿</span><span class="flower">✿</span><span class="flower">✿</span><span class="flower">✿</span><span class="flower">✿</span><span class="flower">✿</span><span class="flower">✿</span>
-          <span class="alt-text-description">7 white flowers arranged in an arch</span>
         </div>
         <h2 class="small">Welcome</h2>
         <div class="section-content">
@@ -59,13 +57,14 @@
           <p class="large">This project is a collaboration between artists Bojana Coklyat and Shannon Finnegan, supported by <a href="https://www.eyebeam.org/">Eyebeam</a> and the <a href="https://disabilityvisibilityproject.com/">Disability Visibility Project</a>. </p>
           <p class="large">Eyebeam “enables people to think creatively and critically about technology's effect on society, with the mission of revealing new paths toward a more just future for all.” The Disability Visibility Project “is an online community dedicated to creating, sharing, and amplifying disability media and culture.”</p>
           <p class="large">We’re excited for you to join us in exploring alt-text and hopefully in the process work towards making online communities more accessible, fun, and welcoming. </p>
-          <p class="large"><span class="flower rotating">❁</span> <span class="flower rotating">❀</span> Shannon & Bojana</p>
+          <p class="large"><span class="flower rotating" role="text" aria-label="a spinning eight-petalled flower...">❁</span> <span class="flower rotating" role="text" aria-label="a spinning five-petalled flower...">❀</span> Shannon & Bojana</p>
         </div>
       </section>
 
 
       <!-- SECTION: ABOUT -->
       <section id="about" class="medium">
+        <div class="surrounding-garden" role="img" aria-label="A lacy pixelated fence surrounds this section, with yellow florettes scattered in the periphery"></div>
         <div class="section-header">
           <h2 class="large">
             <!-- (a note about dropcaps: role="text" allows the whole span to be read at once. don't put a space after the dropcaps span) -->
@@ -77,7 +76,7 @@
         <div class="section-content">
           <p class="small">We also recorded this section, if you want to listen:</p>
           <audio controls><source src="https://cdn.glitch.com/dab74f90-05f8-457b-bc96-450402ae5aad%2Ftest-playful.mp3?v=1584642719801" type="audio/mpeg" /></audio>
-          <p class="large">First off, some context. We, <span class="flower rotating">❁</span> Shannon and <span class="flower rotating">❀</span> Bojana, are both disabled artists and activists. We met in New York through mutual friends around the time Shannon was first thinking about alt-text. We realized there was a lot of overlap between our interests and decided to jump into this collaborative project.</p>
+          <p class="large">First off, some context. We, <span class="flower rotating" role="img" aria-label="a spinning eight-petalled flower">❁</span> Shannon and <span class="flower rotating" role="img" aria-label="a spinning five-petalled flower">❀</span> Bojana, are both disabled artists and activists. We met in New York through mutual friends around the time Shannon was first thinking about alt-text. We realized there was a lot of overlap between our interests and decided to jump into this collaborative project.</p>
           <details>
             <summary><h3 class="large">What is alt-text?</h3></summary>
             <p class="medium">Alt-text (or alternative text) is a written description of an image posted online.</p>
@@ -143,6 +142,7 @@
 
       <!-- SECTION: BOOK -->
       <section id="book" class="medium">
+        <div class="surrounding-garden" role="img" aria-label="Yellow flowers scattered about the periphery of this section"></div>
         <div class="section-header">
           <h2 class="large">
             <span role="text"><span class="dropcaps">B</span>ook — our wookbook!</span> 
@@ -187,6 +187,7 @@
 
       <!-- SECTION: WORKSHOP -->
       <section id="workshop" class="medium">
+        <div class="surrounding-garden" role="img" aria-label="Yellow flowers scattered about the periphery of this section"></div>
         <div class="section-header">
           <h2 class="large">
             <span role="text"><span class="dropcaps">W</span>orkshop</span> 
@@ -229,6 +230,7 @@
 
       <!-- SECTION: EXHIBITION -->
       <section id="exhibition" class="medium"> 
+        <div class="surrounding-garden" role="img" aria-label="Yellow flowers scattered about the periphery of this section"></div>
         <div class="section-header">
           <h2 class="large">
             <span role="text"><span class="dropcaps">E</span>xhibition</span> 
@@ -245,6 +247,7 @@
 
       <!-- SECTION: TOOLS -->
       <section id="tools" class="medium">
+        <div class="surrounding-garden" role="img" aria-label="Yellow flowers scattered about the periphery of this section"></div>
         <div class="section-header">
           <h2 class="large">
             <span role="text"><span class="dropcaps">T</span>ools</span> 
@@ -307,6 +310,7 @@
 
       <!-- SECTION: ECOSYSTEM -->
       <section id="ecosystem" class="medium">
+        <div class="surrounding-garden" role="img" aria-label="Yellow flowers scattered about the periphery of this section"></div>
         <div class="section-header">
           <h2 class="large">
             <span role="text"><span class="dropcaps">E</span>cosystem</span> 
@@ -418,6 +422,7 @@
 
       <!-- SECTION: BLOG -->
       <section id="blog" class="medium">
+        <div class="surrounding-garden" role="img" aria-label="A pixelated fence of lasso-loops, with peru florettes scattered in the periphery"></div>
         <div class="section-header">
           <h2 class="large">
             <span role="text"><span class="dropcaps">B</span>log</span> 
@@ -439,7 +444,6 @@
           <a href="blog/index.html" class="submit large">Visit our blog “Alt-Text Study Club” to see more</a>
         </div>
       </section>
-
 
       <!-- SECTION: ABOUT THE SITE -->
       <section id="about-this-site" class="medium">
@@ -465,13 +469,13 @@
       <span class="alt-text-description">7 multicolored flowers arranged in a row</span>
       <a href="#date" class="back-to-menu scroll">
         <div id="flower-sweep">
-          <div class="flower yellow">✿</div>
-          <div class="flower yellowgreen">✿</div>
-          <div class="flower tomato">✿</div>
-          <div class="flower cyan">✿</div>
-          <div class="flower silver">✿</div>
-          <div class="flower fuchsia">✿</div>
-          <div class="flower peru">✿</div>
+          <div class="flower yellow" role="img" aria-label="yellow florette">✿</div>
+          <div class="flower yellowgreen" role="img" aria-label="yellowgreen florette">✿</div>
+          <div class="flower tomato" role="img" aria-label="tomato florette">✿</div>
+          <div class="flower cyan" role="img"  aria-label="cyan florette">✿</div>
+          <div class="flower silver" role="img" aria-label="silver florette">✿</div>
+          <div class="flower fuchsia" role="img" aria-label="fuchsia florette">✿</div>
+          <div class="flower peru" role="img"  aria-label="peru florette">✿</div>
         </div>
       </a>
       <p>We welcome feedback on Alt-Text as Poetry. Feel free to get in touch!</p>
