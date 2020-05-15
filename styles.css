@@ -101,6 +101,31 @@ details h4 {
 .small {
   font-size: 19.8px;
 }
+.mono {
+  font-family: monospace;
+  font-size: 0.7em;
+}
+
+summary.small.mono {
+  display: block;
+}
+
+details[open] summary.small.mono {
+  background: mistyrose;
+}
+
+details p.small.mono {
+  color: mistyrose;
+}
+
+code {
+  background: yellowgreen;
+  color: #260069;
+  font-size: 0.7em;
+  display: inline-block;
+  padding: 0.05em 0.2em 0.05em;
+}
+
 @media screen and (max-width: 704px) {
   .small {
     font-size: 15.4px;
