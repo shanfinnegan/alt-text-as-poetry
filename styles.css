@@ -103,19 +103,18 @@ details h4 {
 }
 .mono {
   font-family: monospace;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
-summary.small.mono {
-  display: block;
+p.small.mono {
+  line-height: 1.2;
 }
 
-details[open] summary.small.mono {
-  background: mistyrose;
-}
-
-details p.small.mono {
-  color: mistyrose;
+p.small.mono .pink {
+  background: cornflowerblue;
+  color: #260069;
+  /* line-height: 1.4; */
+  /* display: inline; */
 }
 
 code {
