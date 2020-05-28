@@ -97,24 +97,24 @@ details h4 {
   font-weight: bold;
   margin: 1em 0;
 }
-
 .small {
   font-size: 19.8px;
 }
 .mono {
   font-family: monospace;
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
-
+details details summary.small.mono {
+  background: transparent;
+  color: white;
+  display: block;
+}
+details details[open] summary.small.mono {
+  color: pink;
+}
 p.small.mono {
-  line-height: 1.2;
-}
-
-p.small.mono .pink {
-  background: cornflowerblue;
-  color: #260069;
-  /* line-height: 1.4; */
-  /* display: inline; */
+  line-height: 1.4;
+  color: pink;
 }
 
 code {
