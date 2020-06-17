@@ -443,10 +443,14 @@ section .section-header h2 .dropcaps {
   height: 1em;
   margin-right: 0.07em;
   background-color: currentcolor;
-  /* font-size: 6em; */
-  font-size: 5em;
+  font-size: 6em;
   text-align: center;
   line-height: 1;
+}
+@media screen and (max-width: 704px) {
+  section .section-header h2 .dropcaps {
+    font-size: 5em;
+  }
 }
 section .section-header h2 .dropcaps::first-letter {
   color: #260069;

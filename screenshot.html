@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Alt-Text as Poetry</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css?123213">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <style>
+      * { box-sizing: border-box; }
+      html, body {
+        height: 100%;
+        background: black;
+      }
+      body {
+        margin: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      img.small {
+        max-width: 100%;
+        cursor: zoom-in;
+      }
+      img.full {
+        cursor: zoom-out;
+      }
+      img {
+        max-width: none;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./assets/taichi-hat-screenshot.png" alt="A screenshot of a computer browser window showing the Alt-Text Chrome extension's functionality. The alt-text 'Taichi is sitting in a cafe, looking downward at his phone. He wears a black bucket hat with embroidered flowers of various bright colors' appears visibly in lime green text on a black background superimposed on top of the actual image. The extension has another black window that says, 'Total 2 External Images Found.'" id="image">
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./assets/image.js"></script>
+</html>
