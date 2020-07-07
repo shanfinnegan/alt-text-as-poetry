@@ -297,56 +297,59 @@ header nav li a.blog {
   background-color: peru;
 }
 
-section#welcome, section#about-this-site {
+section#welcome, section#about-this-site, section#about-the-audio {
   position: relative;
   max-width: 704px;
   margin-top: 144px;
   margin-bottom: 144px;
 }
-section#welcome div.flower-arch, section#about-this-site div.flower-arch {
+section#about-the-audio {
+  margin-bottom: 12em;
+}
+section#welcome div.flower-arch, section#about-this-site div.flower-arch, section#about-the-audio div.flower-arch {
   position: absolute;
   top: -48px;
   left: 50%;
   width: 140px;
   transform: translateX(-50%);
 }
-section#welcome div.flower-arch span.flower, section#about-this-site div.flower-arch span.flower {
+section#welcome div.flower-arch span.flower, section#about-this-site div.flower-arch span.flower, section#about-the-audio div.flower-arch span.flower {
   position: absolute;
   top: 0;
   left: 0;
   width: 70px;
   transform-origin: center right;
 }
-section#welcome div.flower-arch span.flower:nth-child(2), section#about-this-site div.flower-arch span.flower:nth-child(2) {
+section#welcome div.flower-arch span.flower:nth-child(2), section#about-this-site div.flower-arch span.flower:nth-child(2), section#about-the-audio div.flower-arch span.flower:nth-child(2) {
   transform: rotate(26deg);
   padding-left: 6px;
 }
-section#welcome div.flower-arch span.flower:nth-child(3), section#about-this-site div.flower-arch span.flower:nth-child(3) {
+section#welcome div.flower-arch span.flower:nth-child(3), section#about-this-site div.flower-arch span.flower:nth-child(3), section#about-the-audio div.flower-arch span.flower:nth-child(3) {
   transform: rotate(57deg);
   padding-left: 10px;
 }
-section#welcome div.flower-arch span.flower:nth-child(4), section#about-this-site div.flower-arch span.flower:nth-child(4) {
+section#welcome div.flower-arch span.flower:nth-child(4), section#about-this-site div.flower-arch span.flower:nth-child(4), section#about-the-audio div.flower-arch span.flower:nth-child(4) {
   transform: rotate(90deg);
   padding-left: 12px;
 }
-section#welcome div.flower-arch span.flower:nth-child(5), section#about-this-site div.flower-arch span.flower:nth-child(5) {
+section#welcome div.flower-arch span.flower:nth-child(5), section#about-this-site div.flower-arch span.flower:nth-child(5), section#about-the-audio div.flower-arch span.flower:nth-child(5) {
   transform: rotate(123deg);
   padding-left: 10px;
 }
-section#welcome div.flower-arch span.flower:nth-child(6), section#about-this-site div.flower-arch span.flower:nth-child(6) {
+section#welcome div.flower-arch span.flower:nth-child(6), section#about-this-site div.flower-arch span.flower:nth-child(6), section#about-the-audio div.flower-arch span.flower:nth-child(6) {
   transform: rotate(154deg);
   padding-left: 6px;
 }
-section#welcome div.flower-arch span.flower:nth-child(7), section#about-this-site div.flower-arch span.flower:nth-child(7) {
+section#welcome div.flower-arch span.flower:nth-child(7), section#about-this-site div.flower-arch span.flower:nth-child(7), section#about-the-audio div.flower-arch span.flower:nth-child(7) {
   transform: rotate(180deg);
 }
-section#welcome div.flower-arch.wide, section#about-this-site div.flower-arch.wide {
+section#welcome div.flower-arch.wide, section#about-this-site div.flower-arch.wide, section#about-the-audio div.flower-arch.wide {
   width: 200px;
 }
-section#welcome div.flower-arch.wide span.flower, section#about-this-site div.flower-arch.wide span.flower {
+section#welcome div.flower-arch.wide span.flower, section#about-this-site div.flower-arch.wide span.flower,  section#about-the-audio div.flower-arch.wide span.flower{
   width: 100px;
 }
-section#welcome h2, section#about-this-site h2 {
+section#welcome h2, section#about-this-site h2, section#about-the-audio h2 {
   margin-top: -46.8px;
   font-weight: normal;
   text-align: center;
