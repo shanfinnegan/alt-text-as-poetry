@@ -24,6 +24,11 @@ body {
   }
 }
 
+hr {
+  border: 0;
+  border-bottom: 4px solid white;
+}
+
 ol, ul {
   margin: 0;
   padding: 0;
@@ -441,6 +446,13 @@ section .section-header h2 {
   margin: 0;
   font-weight: normal;
   float: left;
+}
+section h3.medium {
+  font-weight: normal;
+  font-family: cursive;
+  border-bottom: 1px dotted white;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 section .section-header h2 .dropcaps {
   position: relative;
