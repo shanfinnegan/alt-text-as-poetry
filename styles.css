@@ -129,7 +129,9 @@ p.small.mono {
   line-height: 1.4;
   color: pink;
 }
-
+p.description {
+  margin-bottom: 2.5em;
+}
 code {
   background: yellowgreen;
   color: #260069;
