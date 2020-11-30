@@ -776,7 +776,6 @@ section#ecosystem .section-content a:hover {
 }
 section#blog {
   color: peru;
-  color: white;
   border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABGElEQVRYR+2YzRHCQAiFk5oswMI8W5gFpCYdD1xw3jxgIS6Z9agrvP34TfatyWdvonNbQrMjBYkez/v76+z2eJVSFz9yMeSvr1BN0kvWeh6dQ9//EG0rVHLHSqrqPCVa5Vh3BQbCXEzMELqQrmrUtlh36S+UhQaRYmSig8DczFE30I6nExolY811bT9MdAkFBK5DNJpTKDWi9ijRqOHThI4uJ6zYvPbTJxMTyEate3HODt2oPZqjbJRaCbYV6i3SvxFdQqOb/mhuyv/dobcWD9tXy0M/rVDvM4+VVNpk0jnJSMpEOV2o1WG0yIbflGQ79lZ9+JWOV/hoJK4nFBVR1WOwNWJ0HxVD0wpl7ejs38tGaPZFltBsoh8k7ZA6qRKwdwAAAABJRU5ErkJggg==") 14/15.4px/0 round;
   border-width: 15.4px;
   border-style: solid;
