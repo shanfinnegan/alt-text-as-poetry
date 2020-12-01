@@ -803,6 +803,7 @@ section#blog article {
   padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 1em;
+  color: white;
 }
 section#blog article p:first-child {
   margin-top: 0;
