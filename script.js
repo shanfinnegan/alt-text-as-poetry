@@ -267,19 +267,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function generateBlog(jsonData) {
   var blogEntriesHTML = '';
-  jsonData.forEach(entry => {
+  if(document.querySelector('body').classList.contains("home")) {
+    jsonData.slice(0,3).forEach(entry => {
+      generateBlogEntryHTML(entry);
+    });
+  }
+  else {
+    jsonData.forEach(entry => {
+      generateBlogEntryHTML(entry);
+    });
+  }
+    
+  function generateBlogEntryHTML(entry){
     // if the entry has links, create html for each link
     var linksHTML = '';
+    var post_HTML = '';
     if (entry.hasOwnProperty("links")) {
       entry["links"].forEach(entryLink => {
         linksHTML += `<a class="alt-text-example_reference" href="${entryLink["link-url"]}">${entryLink["link-text"]}</a>`;
       });
     }
-
-    // build the blog entry's HTML
-    blogEntriesHTML += 
+    if (entry["type"] == "text") {
+      post_HTML += 
       `
-      <article class="small" id="${entry["id"]}" data-summary="${entry["summary"]}">
+      <h2>${entry["post_title"]}</h2>
+      ${entry["post_text"]}
+      `
+    }
+    if (entry["type"] == "alt-text") {
+      post_HTML +=
+      `
         <p class="alt-text-example ${entry["shape"]} medium" aria-label="alt-text example">
           ${entry["text"]}
         </p>
@@ -287,12 +304,21 @@ function generateBlog(jsonData) {
         <time datetime="${(new Date(entry["time"])).toISOString()}">${entry["time"]}</time><br/>
         ${linksHTML}
         <p class="alt-text-example_reflection">${entry["reflection"]}</p>
+      `
+    }
+
+    // build the blog entry's HTML
+    blogEntriesHTML += 
+      `
+      <article class="small ${entry["type"]}" id="${entry["id"]}" data-summary="${entry["summary"]}">
+        ${post_HTML}
       </article>
       <hr/>
-      `;
-  });
+      `
+  }
 
   document.querySelector('#blog .blog-entries').innerHTML = blogEntriesHTML;
+
 }
 
 function generateBlogMap() {

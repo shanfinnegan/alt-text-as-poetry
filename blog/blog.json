@@ -4,6 +4,7 @@
     "id" : "thesonofbaldwin",
     "summary" : "Trump is walking to the left...",
     "text" : "Trump is walking to the left, looking back at the camera like a mafia boss. A gnarled tree branch in the frame is giving Hansel and Gretel realness.",
+    "type" : "alt-text",
     "shape" : "square",
     "author" : "@thesonofbaldwin",
     "time" : "1/3/2021",
@@ -24,6 +25,7 @@
     "id" : "sarahkenny",
     "summary" : "A toddler with wispy blond hair...",
     "text" : "A toddler with wispy blond hair, stands in front of a brightly lit Christmas tree. She’s wearing an oversized tan sweatshirt with baby leopard print jeans and shiny silver high tops. Her hands are clapsed beneath her chin a mirthful smile on her face.",
+    "type" : "alt-text",
     "shape" : "square",
     "author" : "Sarah Kenny",
     "time" : "12/16/2020",
@@ -37,9 +39,28 @@
   },
   
   {
+    "id" : "reidinmymind",
+    "summary" : "Reid My Mind Podcast",
+    "post_title": "Reid My Mind Podcast",
+    "post_text" : "<p>We recently listened to the <a href='http://reidmymind.com/flipping-the-script-on-audio-description/'>first episode</a> in a series called Flipping the Script on Audio Description. Thomas Reid talks with three audio describers — Alejandra Ospina, Liz Thomson, and Chanelle Carson — about how they approach their work. Highly recommend listening or reading the transcript!</p>",
+    "type" : "text",
+    "time" : "9/16/2020"
+    },
+    
+    {
+      "id" : "vocaleyes",
+      "summary" : "VocalEyes’s Describing Diversity Report",
+      "post_title": "VocalEyes’s Describing Diversity Report",
+      "post_text" : "<p>In September 2020, VocalEyes, a UK-based organization supporting access to the arts, released a report called <a href='https://vocaleyes.co.uk/describing-diversity-report-published/'>Describing Diversity</a>. The subtitle of the report is, “an exploration of the description of human characteristics and appearance within the practice of theatre audio description.” A favorite part of the report is this recommendation: “Be transparent about your position, your strategy, and your sources of information; consider including a ‘describer’s preface’ or ‘describer’s note’ to explain your decision-making processes.”</p> <p>We've also been doing interviews which are probably going to be quite long. Most people opted to speak to us on the phone and each conversation was about 30 minutes. I wonder if we should just intro them in a blog post and then link out to them elsewhere? Or would it be easy to make a post style that displays only the first paragraph or two at the beginning with the option to expand? I haven't transcribed any of these yet, so unfortunately I don't have an example. Here is an auto-transcribed version of one in case that helps give you a sense of it: <a href='https://otter.ai/u/o2qCjhqLyJYgSwIoo5hKqdeW5Lc'>https://otter.ai/u/o2qCjhqLyJYgSwIoo5hKqdeW5Lc</a></p>",
+      "type" : "text",
+      "time" : "9/20/2020"
+      },
+  
+  {
     "id" : "museummammy",
     "summary" : "two authors who just saw a layout of their first book...",
     "text" : "two authors who just saw a layout of their first book. the woman in the foreground wears glasses and the woman in the background wears pink sunglasses and is holding up a peace sign. both women are radiating with pride and hope for the future.",
+    "type" : "alt-text",
     "shape" : "square",
     "author" : "@museummammy",
     "time" : "3/17/2018",
@@ -60,6 +81,7 @@
     "id" : "donald-judd",
     "summary" : "[There are] five white, very large paintings in this show...",
     "text" : "The space is shallow, close to the surface and achieved by innumerable small arcs superimposed on a black ground overlain with a wash of white. The effect is both complex and simple... The total quality suggests an analogy to a large, fragile, but vigorously carved grill or to a massive, solid lace.",
+    "type" : "alt-text",
     "shape" : "landscape",
     "author" : "Donald Judd",
     "time" : "1959",
@@ -80,6 +102,7 @@
     "id" : "justnalln",
     "summary" : "A sea of purple aster flowers, with round yellow centers...",
     "text" : "A sea of purple aster flowers, with round yellow centers and thick manes of straight thin lavender petals, like purple daisies.",
+    "type" : "alt-text",
     "shape" : "square",
     "author" : "@justnalln",
     "time" : "10/23/2018",

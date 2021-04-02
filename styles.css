@@ -840,6 +840,10 @@ section#blog article address {
   display: inline-block;
   font-style: normal;
 }
+article.text {
+  max-width: 600px;
+  margin: 0 auto;
+}
 section#blog article a.alt-text-example_reference::after {
   content: "\00000a";
   white-space: pre;
