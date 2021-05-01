@@ -10,7 +10,7 @@ document.querySelectorAll('#date').forEach(dateElement => {
 
 
 /**************************************************************
-* About section: Alt-text Example 
+* About section: Alt-text Example
 ***************************************************************/
 var altTextExamples = document.querySelectorAll('figure.alt-text-example').forEach(altTextExample => {
   altTextExample.querySelector('img').addEventListener('click', () => {
@@ -81,7 +81,7 @@ document.querySelectorAll('footer #flower-sweep').forEach( element => {
 
 
 
-    
+
 /**************************************************************
 * Smooth Scroll Polyfill
 ***************************************************************/
@@ -198,7 +198,7 @@ function addEmanatingFlowers(section, verticalSides, horizontalSides, flowerCons
 }
 
 /**
- * 
+ *
  * @param {DOMElement} section: <section> to add dropcap to h2
  * @param {Integer} numberOfFlowers: number of flowers
  */
@@ -277,18 +277,22 @@ function generateBlog(jsonData) {
       generateBlogEntryHTML(entry);
     });
   }
-    
+
   function generateBlogEntryHTML(entry){
     // if the entry has links, create html for each link
     var linksHTML = '';
+    var sourceHTML = '';
     var post_HTML = '';
     if (entry.hasOwnProperty("links")) {
       entry["links"].forEach(entryLink => {
         linksHTML += `<a class="alt-text-example_reference" href="${entryLink["link-url"]}">${entryLink["link-text"]}</a>`;
       });
     }
+    if (entry.hasOwnProperty("source")) {
+        sourceHTML += `<div>${entry["source"]}</div>`;
+    }
     if (entry["type"] == "text") {
-      post_HTML += 
+      post_HTML +=
       `
       <h2>${entry["post_title"]}</h2>
       ${entry["post_text"]}
@@ -303,12 +307,13 @@ function generateBlog(jsonData) {
         <address aria-label="author">${entry["author"]}</address>,
         <time datetime="${(new Date(entry["time"])).toISOString()}">${entry["time"]}</time><br/>
         ${linksHTML}
+        ${sourceHTML}
         <p class="alt-text-example_reflection">${entry["reflection"]}</p>
       `
     }
 
     // build the blog entry's HTML
-    blogEntriesHTML += 
+    blogEntriesHTML +=
       `
       <article class="small ${entry["type"]}" id="${entry["id"]}" data-summary="${entry["summary"]}">
         ${post_HTML}

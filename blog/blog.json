@@ -1,5 +1,5 @@
 [
-  
+
     {
     "id" : "thesonofbaldwin",
     "summary" : "Trump is walking to the left...",
@@ -20,7 +20,7 @@
     ],
     "reflection" : "The caption of this post is about Trump threatening Georgia's Sectretary of State to “find votes” to flip the state to Trump. I appreciate the way this image description is embued with that dark and foreboding context. And also with a touch of bleak humor. — Shannon"
   },
-  
+
   {
     "id" : "sarahkenny",
     "summary" : "A toddler with wispy blond hair...",
@@ -29,15 +29,10 @@
     "shape" : "square",
     "author" : "Sarah Kenny",
     "time" : "12/16/2020",
-    "links" : [
-      {
-        "link-text" : "Posted on Facebook",
-        "link-url" : ""
-      }
-    ],
+    "source" : "Posted on Facebook",
     "reflection" : "The combination of the baby leopard pants and “tiny silver high tops” on a toddler stood out to me. These two items signal youthful exuberance. I could also wear leopard print pants and silver high tops, and that could potentially seem “youthful” to some. As adults, we don’t usually point out shoe size, but for a toddler, using the word “tiny” adds another layer of charm to this already cute description. — Bojana"
   },
-  
+
   {
     "id" : "reidinmymind",
     "summary" : "Reid My Mind Podcast",
@@ -46,7 +41,7 @@
     "type" : "text",
     "time" : "9/16/2020"
     },
-    
+
     {
       "id" : "vocaleyes",
       "summary" : "VocalEyes’s Describing Diversity Report",
@@ -55,7 +50,7 @@
       "type" : "text",
       "time" : "9/20/2020"
       },
-  
+
   {
     "id" : "museummammy",
     "summary" : "two authors who just saw a layout of their first book...",
