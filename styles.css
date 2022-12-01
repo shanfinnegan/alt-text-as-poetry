@@ -132,6 +132,13 @@ p.small.mono {
 p.description {
   margin-bottom: 2.5em;
 }
+p.description.introduction {
+  margin: 1em;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 4px solid yellow;
+}
 code {
   background: yellowgreen;
   color: #260069;
@@ -539,6 +546,9 @@ section .section-content p {
   section .section-content {
     padding-bottom: 4em;
   }
+  section#about-this-site .section-content {
+    padding-bottom: 0;
+  }
 }
 section#about {
   color: yellow;
@@ -941,6 +951,22 @@ footer address {
   }
 }
 
+section#about-this-site .pink-source {
+  color: pink;
+}
+
+section#about-this-site .pink-quote {
+  background: pink;
+  color: #260069;
+  padding: 1em 1.25em;
+}
+
+section#about-this-site .abundantblue {
+  background: #260069;
+  color: white;
+  border: 1px dotted white;
+}
+
 section#blog:first-child {
   margin-top: 144px;
 }
@@ -987,4 +1013,160 @@ main#blog-page figure.blog-map a::before {
 }
 main#blog-page section#blog .surrounding-garden {
   display: none;
+}
+
+/* Black and White Settings */
+
+nav.color-settings .button {
+  display: block;
+  position: absolute;
+  top: 0.725em;
+  right: 0.725em;
+  padding: 0.25em 1.5em;
+  border-radius: 2em;
+  background: white;
+  color: #260069;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 704px) {
+  nav.color-settings .button {
+    position: static;
+    display: inline-block;
+  }
+}
+
+html.bw nav.color-settings .button,
+html.bw details summary,
+html.bw header nav li a,
+html.bw header nav li a:hover,
+html.bw section#book ul.workbook-formats li a,
+html.bw section#book ul.workbook-formats li a:hover,
+html.bw section#blog article p.alt-text-example,
+html.bw section#blog a.submit,
+html.bw section#blog .section-content a.submit:hover,
+html.bw section#about-this-site .pink-quote {
+  background: black;
+  color: white;
+}
+
+html.bw,
+html.bw body {
+  background: white;
+  color: black;
+}
+
+html.bw a,
+html.bw section,
+html.bw section#about .section-content a:hover,
+html.bw section#book .section-content a:hover,
+html.bw section#workshop .section-content a:hover,
+html.bw section#exhibition .section-content a:hover,
+html.bw section#tools .section-content a:hover,
+html.bw section#ecosystem .section-content a:hover,
+html.bw section#blog .section-content a:hover,
+html.bw a.back-to-menu span,
+html.bw section#ecosystem .section-content a,
+html.bw section#ecosystem .section-content a:hover,
+html.bw section#ecosystem figure.ecosystem-map a::before,
+html.bw p.alt-text-example_reflection,
+html.bw section#blog article,
+html.bw .row-of-flowers.blog,
+html.bw main#blog-page figure.blog-map a,
+html.bw main#blog-page figure.blog-map a::before,
+html.bw section#about-this-site .pink-source,
+html.bw section#about-this-site .abundantblue {
+  color: black;
+}
+
+html.bw a.back-to-menu {
+  border: 1px solid black;
+  background: transparent;
+}
+
+html.bw a.back-to-menu.scroll-slow {
+  border: 0;
+}
+
+html.bw section,
+html.bw section#about,
+html.bw section#book,
+html.bw section#workshop,
+html.bw section#exhibition,
+html.bw section#tools,
+html.bw section#ecosystem,
+html.bw section#blog,
+html.bw section .section-content,
+html.bw section .dropcaps,
+html.bw .flower.peru,
+html.bw .flower.yellow,
+html.bw .flower.yellowgreen,
+html.bw .flower.tomato,
+html.bw .flower.cyan,
+html.bw .flower.silver,
+html.bw .flower.fuchsia {
+  color: black;
+  filter: grayscale(100%);
+}
+
+html.bw section#about {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKqADAAQAAAABAAAAKgAAAADUGqULAAABBUlEQVRYCe1Y0Q7DIAjs9v//vJVulwCBuGisXoZJYwWEu+s99ThqzVPgdbaWZ5dl8Dx3QdXC8TgLMhUlpxfqfBw1Wb43jr7XTqUokPcy9wqjD/pmecRRjzPumTiNokBf+0wFxBvwx8w5We9wPqVHQyYZ7RviBg+lojeI9KcjjDcWaBDOL48u+BL7jQy9sRCmwUPtUcNkgaLhfBpFC+hMy4TemDmw0dvgofn0DVKVHlLAeGKo09jlEAe1R0NGYyJ13TY4qBXtol+XvgroP2jiCVk6JufeuNyV5ft9onnfME/jUWELxcAEu1cCdT6O+izv47+e0ffaaRTVqIUp2Or4qneDh0bRN56vQftyArsXAAAAAElFTkSuQmCC") 14 /  14px / 0 round;
+}
+
+html.bw section#book {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAApElEQVRYR+2YUQqAIBQE9f6HLoJEEBPEWenV9hfUNsxbS8opyJGDcCaD0pMijR43XMlsz5fYfwlajKEmSyhpNBzoUhefblYYNajEAB3q0dsobYDOc0d3GJV8qyfAu8/vjT4MqHRzMTA7FDRaTLvNToPuBmwlf7ejEwtVf6lf+LRjG7VR2gCd547aKGhAsldQdPT1oP4/etVSMXqw7jXKoLTWMEZPRroYK7BQTQ8AAAAASUVORK5CYII=") 14 /  14px / 0 round;
+}
+
+html.bw section#workshop {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA8UlEQVRYR+WYUQ6DMAxD4f6H3qZpSIC69hV7KMn4JUmfHSMQ65LkWpNwLi3Qxwc+lIjUoFHScNhsqPWeHJoGPWeWZpjWoQ0SR9OAIsWvopGD0n3iaDlQKuhSndPRSwC0KRJoN8OlQEdPK92eVEccTQMqOeFqJo66zpLm9EDvWjk6pwSotCp3c4mMbqagDBkclN9MaUANZukjSmVUt6M/AUUrgqMyKBrwa7u3+RHeTEhrhNX/D+goo+p95KQjo2FApxSDPyXfvh1Ggt99zocJHdgQhPr2oKhh1mZXfUpQl3h1TnOzzoyqgN0P9YigTcFpQJ8dfTArq6EjjAAAAABJRU5ErkJggg==") 14 /  14px / 0 round;
+}
+
+html.bw section#exhibition {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABDklEQVRYR+VY0Q7CMBBy///RLpr1YaY9Oe7IhvqymPQKBUaN24P/PI/R7Xh+fud3nkwOEGZTG6LM4eiZiqI0KDM4I1q1NJtVCM+a6HBGokxge4gXZfT2RKHMsMpM5iC8n8go0yKyGese7VIFyh4KplT0cqLZ2kJFW6174zGK2hCtKkTNM4pSQNUh5gpVWb/a92tGw0Ey35GwaaKttQJYDuEp7nqA22kJTPRWFq8i9VLUhmjWqkvWW/WoqhfDuztbb1FGVRZTwlSsh2ql67R/QbRLLGifiqIQQNcixRWafVmgrFsTHW5JlGH/YWF+OKNFXj3oCcfaeijcrIWTOQjPup66qq91H6WikKXoaWyI7nyPaCf8Lq5mAAAAAElFTkSuQmCC") 14 /  14px / 0 round;
+}
+
+html.bw section#tools {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAwklEQVRYR+2XQQ6AIBAD5f+P1mjChYNMSQmB1HMt47BKLNcmV9mE8wqoe6diNEbdBtx9ZEbvZtHePTVPc7X+N98re0uOA20fqGdKEuA0uhzU/V4M9RGjQ8XumwIao24D7j5lRumJQxmlvqNApROE6lSPZmJ0G9AqSZopYFbqI0a3AwWS5kUUo/MoQHNAgSQpEqOSLhAmRukHf/mvyHGg6sFABXy9zq1fDgpGfX6EGJ1PAVYIKJAkRWJU0gXCMQokSZEHIUMkK7wF43cAAAAASUVORK5CYII=") 14 /  14px / 0 round;
+}
+
+html.bw section#ecosystem {
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABAklEQVRYR+2YwQ6EIAwF8f8/ejfZlUsjMA9qoIo3I9TpVCt4pCDHEYQzbVDvSq1g9HMmVWV5BCjKdKDENn71fjWjy4O2Mi1dV+VmSUjIldEwoNkMNWfN9JqtzlOe0QxuA04HtWbzuVdLs4kP91EpoFB3KS6xIwXsACUMaFHyetBSd7ksCtF+l9EwoJKAmUY36G74Xit86VnqaPioUsrLRMYKnEkSQG6OFrYK4TnWHVRqzALwe0GlzGcaDQNaWulTea2tCtqNkrc+DCjdjbYMl8y1tue/uMTo8qAo05ZG4brbv6e7vlDog9JTekGS39BHgfppGYhEjA6E95u6Qf1c/iN9Aa0JVCvdWy/qAAAAAElFTkSuQmCC") 14 /  14px / 0 round;
+}
+
+html.bw section#blog {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABKElEQVRYR+2YURKDIAxE6/0P3XacMlORZHdNpFjxEyI8NiHRLI/98/wMLY25nw21YIYHrQFVYNW+9k55vx5fxfxW9LKg5WSqUtn263qeon8LGg0dK2ZhjKqKdgO1wCyA5u108rKagzepk8mjw4K6saLKkmXPlEk13WSxbdYZAZQSYoIK/p+KCmJRpvdRlDoppRln5JZg79YPD9obkKqETK3nHJdn1RQq81ckiup68pKgliJnxyy1/qz1QsBORQWxKNP7KUrJEjBKUzTAQL16GNTqqqFdrVTndunei1KNC6/WI7BoA6LsLYNSLnDoqQ2dTkot2mY9ppvHKns6KFISzVPfk4IniulOUQSC5ruB1idgLwkKiegBYYwOD4oU6jUPf0V6gaB9mqAvEFt4KRfK2koAAAAASUVORK5CYII=") 14 /  14px / 0 round;
+}
+
+html.bw section .dropcaps::first-letter {
+  color: white;
+}
+
+html.bw p.description.introduction,
+html.bw section h3.medium {
+  border-bottom-color: black;
+}
+
+html.bw section#blog hr {
+  border-top-color: black;
+}
+
+html.bw section .section-header h2 .dropcaps .inverse-flower-container .flower::before {
+  color: white;
+}
+
+html.bw .flower.rotating, 
+html.bw li.flower-bullet.rotating::before {
+  animation: none;
+}
+
+html.bw figure.alt-text-example img,
+html.bw .embed-container {
+  filter:grayscale(100%);
+}
+
+html.bw section#about-this-site p.medium span.color {
+  background: transparent !important;
 }

@@ -1,4 +1,31 @@
 /**************************************************************
+* Color / Black & White
+* search params ?colors=off
+***************************************************************/
+var params = (new URL(document.location)).searchParams;
+var colorsParam = params.get("colors");
+var isBlackAndWhite = false;
+if (colorsParam == 'off') {
+  turnOffColors();
+}
+if (window.localStorage.getItem('colors') == 'off') {
+  turnOffColors();
+}
+function turnOffColors() {
+  isBlackAndWhite = true;
+  var root = document.getElementsByTagName( 'html' )[0];
+  root.classList.add('bw');
+  var colorSettingsButton = document.querySelector('.color-settings .button');
+  colorSettingsButton.innerText = 'Colors on';
+  colorSettingsButton.href = './';
+  colorSettingsButton.addEventListener('click', () => {
+    window.localStorage.removeItem('colors');
+  });
+  window.localStorage.setItem('colors', 'off');
+}
+
+
+/**************************************************************
 * Today's Date
 ***************************************************************/
 var today = new Date();
@@ -104,7 +131,10 @@ function setupScrollLinks() {
     })
   });
 }
-setupScrollLinks();
+// set up scroll links if the site is in color mode
+if (!isBlackAndWhite) {
+  setupScrollLinks();
+}
 
 
 /**************************************************************

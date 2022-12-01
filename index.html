@@ -39,6 +39,9 @@
           <li><a class="scroll blog" href="#blog">Blog</a></li>
         </ul>
       </nav>
+      <nav class="color-settings">
+        <a href="./?colors=off" class="button">Colors off</a>
+      </nav>
     </header>
 
     <main>
@@ -89,7 +92,7 @@
           </h2>
           <a href="#about" class="permalink">Permalink</a>
         </div>
-        <p class="description small" style="margin: 1em; margin-top: 0; margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 4px solid yellow;">
+        <p class="description small introduction">
           Alt text is an essential part of web accessibility.<br><br>
           It is often disregarded or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort.<br><br>
           How can we instead approach alt text thoughtfully and creatively?
@@ -615,13 +618,13 @@
               We were interested in the flower motif because of its inviting nature. Flower motifs often appear on event invitations—like to parties, weddings, etc. And scientifically speaking, literal flowers are invitations to insects—flowers are brightly colored and sometimes scented so that insects are drawn to pollinate them. (Also coincidentally, Taichi was wearing a <a href="screenshot.html" target="_blank">bucket hat with embroidered flowers</a> during some of our first brainstorming sessions.)
             </p>
             <p class="medium" aria-label="a five-petalled flower that acts as a prelude to the next section">
-              <span style="color: pink;">✿</span>
+              <span class="pink-source">✿</span>
             </p>
             <p class="medium">
               We liked this quote from Buddhist monk and poet Thích Nhất Hạnh:
             </p>
-            <p class="small mono" style="background: pink; color: #260069; padding: 1em 1.25em;">A flower is not a flower. It is made only of non-flower elements: sunshine, clouds, time, space, earth, minerals, gardeners, and so on. A true flower contains the whole universe. If we return any one of these non-flower elements to its source, there will be no flower.</p>
-            <p class="small mono">
+            <p class="small mono pink-quote">A flower is not a flower. It is made only of non-flower elements: sunshine, clouds, time, space, earth, minerals, gardeners, and so on. A true flower contains the whole universe. If we return any one of these non-flower elements to its source, there will be no flower.</p>
+            <p class="small mono pink-source">
                 Source: <a href="https://www.goodreads.com/book/show/187636.No_Death_No_Fear"><i>No Death, No Fear</i>, 2002 (Book)</a>
             </p>
             <p class="medium">
@@ -672,10 +675,13 @@
               We were able to collaboratively code through social distancing thanks to the <a href="https://glitch.com/">Glitch</a> platform. The website now is hosted for free and its code made publicly available through <a href="https://github.com/taichiaritomo/alt-text-as-poetry">Github</a>. If you poke around there, you’ll see we mostly coded it in handwritten <a href="http://html.energy">HTML</a> and CSS. We also used a little bit of JavaScript as glue, specifically for the blog.
             </p>
             <p class="medium">
-              Besides the background, the website’s colors were selected from the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#colors_table">147 named CSS colors</a>. Specifically, we used <span style="background: yellow; color: #260069;">yellow</span>, <span style="background: yellowgreen; color: #260069;">yellowgreen</span>, <span style="background: tomato; color: #260069;">tomato</span>, <span style="background: cyan; color: #260069;">cyan</span>, <span style="background: silver; color: #260069;">silver</span>, <span style="background: fuchsia; color: #260069;">fuchsia</span>, <span style="background: peru; color: #260069;">peru</span>, and <span style="background: pink; color: #260069;">pink</span>. The deep blue background we chose for its expansive quality. At night, sometimes it appears more purple. We like to call it <span style="background: #260069; color: white; border: 1px dotted white;">abundantblue</span>.
+              Besides the background, the website’s colors were selected from the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#colors_table">147 named CSS colors</a>. Specifically, we used <span class="color" style="background: yellow; color: #260069;">yellow</span>, <span class="color" style="background: yellowgreen; color: #260069;">yellowgreen</span>, <span class="color" style="background: tomato; color: #260069;">tomato</span>, <span class="color" style="background: cyan; color: #260069;">cyan</span>, <span class="color" style="background: silver; color: #260069;">silver</span>, <span class="color" style="background: fuchsia; color: #260069;">fuchsia</span>, <span class="color" style="background: peru; color: #260069;">peru</span>, and <span class="color" style="background: pink; color: #260069;">pink</span>. The deep blue background we chose for its expansive quality. At night, sometimes it appears more purple. We like to call it <span class="color abundantblue">abundantblue</span>.
             </p>
             <p class="medium">
               The custom pixelated borders were created using Max Bittker’s “<a href="https://maxbittker.github.io/broider/">broider</a>” tool. (And special thanks to <a href="https://maxbittker.com/"></a>Max</a> for adding custom broider colors for us!)
+            </p>
+            <p class="medium">
+              In 2022, we added a switch that enables users to view the site in plain black & white.
             </p>
 
             <br>
