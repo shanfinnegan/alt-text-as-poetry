@@ -687,7 +687,7 @@ section#exhibition p:last-child {
 section#exhibition .section-content a:hover {
   color: cyan;
 }
-section#blog a.submit {
+section#exhibition a.submit {
   display: inline-block;
   margin-top: -0.5em;
   padding: 0.4em 0.6em;
@@ -696,7 +696,7 @@ section#blog a.submit {
   text-decoration: none;
   text-align: center;
 }
-section#blog a.submit:hover {
+section#exhibition a.submit:hover {
   background: cyan;
   color: #260069;
 }
