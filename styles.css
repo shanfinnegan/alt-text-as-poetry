@@ -687,6 +687,19 @@ section#exhibition p:last-child {
 section#exhibition .section-content a:hover {
   color: cyan;
 }
+section#blog a.submit {
+  display: inline-block;
+  margin-top: -0.5em;
+  padding: 0.4em 0.6em;
+  background: white;
+  color: #260069;
+  text-decoration: none;
+  text-align: center;
+}
+section#blog a.submit:hover {
+  background: cyan;
+  color: #260069;
+}
 section#tools {
   color: silver;
   border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA50lEQVRYR+2XUQ7EIAhE25t5dG/W/SLpkpAdBupKSj8VYXxA1fMo8p1FdB4tNDtTTbSJZhPI9tc1+jeic87rHnyM8ZUNmbfGZa3MW/bWBuHUlxeqN2CR0+Pe0ggT3U6ol4Bl761N8QMTLSeUJSIb/dWU4a7XgfRvCCX+uFA2gN4AmxG4RssIzUo9WiLaDiZaTihLZHnXby80u5m8Zz9co68TypbOcqKPC7VOGD2ub/DRm3349sTeQ5cdodG3EntwuGt0e6FsE2Stg4lmBWT9tFCWXNpTJFsA6q9Tj5JC7ZooSgq1K0P0A3olwCvyelhwAAAAAElFTkSuQmCC") 14/15.4px/0 round;
